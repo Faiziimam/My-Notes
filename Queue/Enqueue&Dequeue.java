@@ -50,7 +50,13 @@ class Enqueue {
         temp = null;
         return front;
     }
+    int peek() {
+        if (isEmpty()) {
+            throw new NoSuchElementException();
+        }
+        return front.data;
 
+    }
     void printQueue() {
         if (isEmpty()) {
             return;
@@ -71,5 +77,6 @@ class Enqueue {
         obj.printQueue();
         obj.deQueue();
         obj.printQueue();
+        System.out.println("PEEK :"+obj.peek());
     }
 }
