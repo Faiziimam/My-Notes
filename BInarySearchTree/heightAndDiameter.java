@@ -44,7 +44,7 @@ public class heightAndDiameter {
     }
 
     int height(node root) {
-        if (root == null) {
+        if (root.left == null && root.right==null) {
             return 0;
         }
         int left = height(root.left);
