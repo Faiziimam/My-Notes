@@ -1,0 +1,14 @@
+What is AVL?
+
+->AVL is self-balancing tree which balance the tree by performing Rotation operations.
+ 
+ Rotations:
+    1) Left
+    1) Right
+    1) Left-Right
+    1) Right-Left
+
+    #Right Scewed tree : Tree which have children only at Right subtree.
+    #Left Scewed tree : Tree which have children only at Left subtree.
+
+
