@@ -1,0 +1,10 @@
+What is Heap Binary Tree?
+1->Heap is a complete Binary Tree
+2=>Binary heap is either Min heap or Max heap 
+  min->where root node is smallest in the tree
+  max->where root node is largest in the tree
+
+formula
+  left=parent*2+1
+  right=parent*2+2
+  parent=(index-1)/2
