@@ -1,5 +1,9 @@
  public void heapify(int[] arr)
   {
+     //      To make this logic more optimize
+    //      LastParentIndex= N/2-1
+   //      example for(int i=LastParentIndex;i>=0;i--}
+  
      for(int i=0;i<arr.length;i++)
      {
          heapify(arr,i);
