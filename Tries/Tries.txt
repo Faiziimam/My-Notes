@@ -1,0 +1,6 @@
+What is Tries?
+Tries are another kind of tree that is use for searching operations.They have keys which is mainly is of Type String.
+
+Operations
+Insert(Array method,HashMap method) 
+Delete
