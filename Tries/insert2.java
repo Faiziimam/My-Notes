@@ -19,6 +19,9 @@ public class Main {
         {
             return "value => "+value;
         }
+        public boolean hasChild(char ch) { return children.containsKey(ch);}
+        public void addChild(char ch){ children.put(ch,new node(ch)); }
+        public node getChild(char ch){ return children.get(ch); }
     }
     //Root node always remain empty in tries.
     private node root=new node(' ');
@@ -27,10 +30,10 @@ public class Main {
         node current=root;
         for(char ch:word.toCharArray())
         {
-            if(current.children.get(ch)==null)
+            if(!current.hasChild(ch))
             {
-                current.children.put(ch,new node(ch));
-                current=current.children.get(ch);
+                current.addChild(ch);
+                current=current.getChild(ch);
             }
         }
         current.isEndOfWord=true;
