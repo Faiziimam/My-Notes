@@ -3,4 +3,6 @@ Tries are another kind of tree that is use for searching operations.They have ke
 
 Operations
 Insert(Array method,HashMap method) 
-Delete
+contain
+traversal
+Deletion
