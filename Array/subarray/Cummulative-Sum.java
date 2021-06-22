@@ -12,6 +12,7 @@ public void cummulative(int[] a)
   for(int i=1;i<=a.length;i++)
   {
    maxSum=Math.max(maxSum,currentSum[i]);
+    int sum=0;
     for(int i=1;i<=a.length;i++)
     {
         sum=currentSum[i]+currentSum[j-1];
