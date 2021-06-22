@@ -1,3 +1,5 @@
+Time-Complexity=O(n^2)
+
 public void cummulative(int[] a)
 {
   int maxSum=Integer.MIN_VALUE;
