@@ -18,7 +18,7 @@ public void solve(int[] a,int b)
 
 
 //Explanation
-*/
+/*
 Let me try to explain the logic with an example for better clarity.
 
 
@@ -88,4 +88,4 @@ res = max(8,6) // res will retain the value as 8 as it is the max value.
 
 
 So the final result will be 8 which is the sum of (5+1+2).
-/*
+*/
