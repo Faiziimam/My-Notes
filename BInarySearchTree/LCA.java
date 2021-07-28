@@ -4,8 +4,8 @@
 //             2   3
 //           4  5    6
 //     Q we have to find LCA between [4,6]
-//     Ans: we will traverse from the node for 4 we have [1,2,3]
-//                                         for 6 we have [1,3,6]
+//     Ans: we will traverse from the node for 4 we have [1,2]
+//                                         for 6 we have [1,3]
 //          In both of the above traversal we have 1 in common so LCA is 1
          
 //   logic
@@ -20,7 +20,7 @@
           return node;
          
        node left=LCA(root.left,n1,n2);
-       node rightLCA(root.right,n1,n2);
+       node right=LCA(root.right,n1,n2);
        
        if(left!=null && right!=null)
           return node;
