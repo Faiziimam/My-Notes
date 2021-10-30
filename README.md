@@ -6,4 +6,4 @@ hackerrank
 leetcode
 GFG
 
-![Picture](https://photos.app.goo.gl/E3Z33SiMrjPros3p6)
+![Picture](https://ibb.co/FW18SP6)
