@@ -6,4 +6,4 @@ hackerrank
 leetcode
 GFG
 
-![Picture](https://ibb.co/FW18SP6)
+![Picture](images/WhatsApp%20Image%202021-10-30 at 8.02.44 PM.jpeg)
