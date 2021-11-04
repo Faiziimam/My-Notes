@@ -1,3 +1,10 @@
+/*  
+ For this we have used Boyer-Moore Majority Voting Algorithm which is very optimal for finding majority Elements.
+*/
+
+
+
+
 import java.util.*;
 public class Main {
     public static void majorityElement(int[] nums) {
