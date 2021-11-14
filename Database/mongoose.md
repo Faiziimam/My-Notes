@@ -60,3 +60,24 @@ Fruit.insertMany([kiwi, banana, pineapple], function (err) {
   } else console.log('Successfully Inserted');
 });
 ```
+## Find 
+``` js
+Fruit.find((err, fruit) => { 
+  return err ? console.log(err) :console.log(fruit);
+});
+
+//To find a specific element 
+
+Fruit.find((err, fruit) => { 
+ if(err)
+ {
+   console.log(err)
+ }
+ else
+ {
+   fruit.forEach(element => {
+     console.log(element.name);
+   });
+ }
+});
+```
