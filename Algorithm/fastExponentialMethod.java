@@ -10,5 +10,5 @@
       base=(base*base)%1000000007;
       exp/=2;
     }
-    return res;
+    return res%1000000007;
   }
