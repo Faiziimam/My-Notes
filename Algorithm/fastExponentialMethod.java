@@ -1,6 +1,6 @@
   public static long fastExponentialMethod(long base,long exp)
   {
-    long res=0;
+    long res=1;
     while(exp<0)
     {
       if(exp%2==1)
